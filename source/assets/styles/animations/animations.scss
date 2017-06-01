@@ -1,0 +1,26 @@
+// Fade-in
+
+.fadeIn {
+	animation: fadeIn 200ms ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes loading {
+	0% { box-shadow: 0 0 0 0px rgba(216, 0, 0, 0.8); }
+	100% { box-shadow: 0 0 0 10px rgba(216, 0, 0, 0); }
+}
+
+.owl-animated-out {
+  z-index: 1;
+}
+
+.owl-animated-in {
+  z-index: 0;
+}

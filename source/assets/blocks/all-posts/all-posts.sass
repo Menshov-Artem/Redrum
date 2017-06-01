@@ -1,0 +1,38 @@
+.all-posts
+	padding: 100px 0
+	
+	&__container
+	
+	&__items-row
+		width: 100%
+		margin-bottom: 100px
+		display: inline-flex
+
+		&:last-child
+			margin-bottom: 0
+
+	&__item
+		width: 100%
+		margin-right: 100px
+
+		&:last-child
+			margin-right: 0
+
+		&:hover .all-posts__image
+			filter: grayscale(0%)
+
+	&__info
+
+
+	&__image
+		width: 100%
+		max-height: 200px
+		object-fit: cover
+		filter: grayscale(100%)
+		transition: filter 200ms linear
+
+	&__title
+		margin-top: 15px
+		font:
+			size: 16px
+			weight: 700
