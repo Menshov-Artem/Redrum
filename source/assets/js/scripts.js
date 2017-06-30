@@ -3,7 +3,6 @@ $(window).on('load', function () {
 	$('main').addClass('fadeIn');
 
 	// Preloader
-
 		var $preloader = $('.preloader');
 		var	$logotype = $preloader.find('.preloader__logotype');
 
@@ -46,7 +45,6 @@ $(document).ready(function() {
 		});
 
 	// Popular posts
-
 		var owl = $('#owlPopularPosts');
 
 		owl.owlCarousel({
@@ -82,5 +80,3 @@ $(document).ready(function() {
 		})
 
 });
-
-//# sourceMappingURL=scripts.js.map
