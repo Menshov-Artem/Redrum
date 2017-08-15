@@ -15,198 +15,10 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/build\/assets\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/build\/assets\/css\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/assets\/css\/style.css.map",
-		"oF": 0
-		},
-	"\/build\/assets\/images\/bg.jpg": {
-		"ft": 16384,
-		"iS": 52319,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/goods\/redrum.jpeg": {
-		"ft": 16384,
-		"iS": 33234,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/goods\/redrum.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/logotype\/redrum-logotype.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/images\/logotype\/redrum-logotype.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/build\/assets\/images\/popular-posts\/s-01.jpg": {
-		"ft": 16384,
-		"iS": 329829,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/popular-posts\/s-02.jpg": {
-		"ft": 16384,
-		"iS": 17625,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/popular-posts\/s-03.jpg": {
-		"ft": 16384,
-		"iS": 68117,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/popular-posts\/s-04.jpg": {
-		"ft": 16384,
-		"iS": 251212,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/popular-posts\/s-05.jpg": {
-		"ft": 16384,
-		"iS": 95584,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/popular-posts\/s-06.jpg": {
-		"ft": 16384,
-		"iS": 364737,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/popular-posts\/s-06.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/assets\/images\/search\/search.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/images\/search\/search.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/build\/assets\/js\/libraries\/jquery-3.1.1.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/js\/libraries\/jquery-3.1.1.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/build\/assets\/js\/plugins\/jquery.mousewheel.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/js\/plugins\/jquery.mousewheel-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/build\/assets\/js\/plugins\/parallax.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/js\/plugins\/parallax.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/build\/assets\/js\/scripts.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/js\/scripts-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/build\/assets\/prepros-6.config": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/assets\/prepros-6.config",
-		"oF": 0
-		},
-	"\/build\/assets\/sounds\/achiva.mp3": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/assets\/sounds\/achiva.mp3",
-		"oF": 0
-		},
-	"\/build\/basket.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/basket.html",
-		"oF": 0
-		},
-	"\/build\/catalog.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/catalog.html",
-		"oF": 0
-		},
-	"\/build\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/index.html",
-		"oF": 0
-		},
-	"\/build\/post.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/post.html",
-		"oF": 0
-		},
-	"\/build\/product.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/product.html",
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
 		"oF": 0
 		},
 	"\/prepros-6.config": {
@@ -430,6 +242,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/blocks\/message\/message.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/assets\/blocks\/message\/message.html",
+		"oF": 0
+		},
 	"\/source\/assets\/blocks\/message\/message.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -450,6 +268,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/source\/assets\/blocks\/navigation\/navigation.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/assets\/blocks\/navigation\/navigation.html",
+		"oF": 0
 		},
 	"\/source\/assets\/blocks\/navigation\/navigation.pug": {
 		"cOD": 1,
@@ -514,6 +338,22 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/blocks\/preloader\/preloader.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/source\/assets\/blocks\/preloader\/preloader-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/source\/assets\/blocks\/preloader\/preloader.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/assets\/blocks\/preloader\/preloader.html",
+		"oF": 0
+		},
 	"\/source\/assets\/blocks\/preloader\/preloader.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -560,9 +400,15 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/source\/assets\/blocks\/scripts\/scripts.html",
+		"oAP": "\/build\/assets\/blocks\/scripts\/scripts.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/source\/assets\/blocks\/search\/search.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/assets\/blocks\/search\/search.html",
+		"oF": 0
 		},
 	"\/source\/assets\/blocks\/search\/search.pug": {
 		"cOD": 1,
@@ -640,6 +486,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/blocks\/top-news\/top-news.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/assets\/blocks\/top-news\/top-news.html",
+		"oF": 0
+		},
 	"\/source\/assets\/blocks\/top-news\/top-news.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -678,27 +530,27 @@
 		"ft": 16384,
 		"iS": 52319,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/bg.jpg",
+		"oAP": "\/build\/assets\/images\/bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/images\/goods\/redrum.jpeg": {
+	"\/source\/assets\/images\/goods\/redrum.jpg": {
 		"ft": 16384,
-		"iS": 33234,
+		"iS": 33173,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/goods\/redrum.jpg",
+		"oAP": "\/build\/assets\/images\/goods\/redrum.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/logotype\/redrum-logotype.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/assets\/images\/logotype\/redrum-logotype.svg",
+		"oAP": "\/build\/assets\/images\/logotype\/redrum-logotype.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -708,95 +560,77 @@
 		"ft": 16384,
 		"iS": 329829,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-01.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/popular-posts\/s-02.jpg": {
 		"ft": 16384,
 		"iS": 17625,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-02.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/popular-posts\/s-03.jpg": {
 		"ft": 16384,
 		"iS": 68117,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-03.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/popular-posts\/s-04.jpg": {
 		"ft": 16384,
 		"iS": 251212,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-04.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/popular-posts\/s-05.jpg": {
 		"ft": 16384,
 		"iS": 95584,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-05.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/popular-posts\/s-06.jpg": {
 		"ft": 16384,
 		"iS": 364737,
 		"oA": 0,
-		"oAP": "\/source\/assets\/images\/popular-posts\/s-06.jpg",
+		"oAP": "\/build\/assets\/images\/popular-posts\/s-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/assets\/images\/search\/search.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/assets\/images\/search\/search.svg",
+		"oAP": "\/build\/assets\/images\/search\/search.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/assets\/scripts\/plugins\/jquery.mousewheel.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/source\/assets\/scripts\/plugins\/jquery.mousewheel-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/source\/assets\/scripts\/plugins\/parallax.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/source\/assets\/scripts\/plugins\/parallax.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/source\/assets\/scripts\/scripts.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/source\/assets\/scripts\/scripts-min.js",
+		"oAP": "\/build\/assets\/scripts\/scripts.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -846,6 +680,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/styles\/plugins\/owl.carousel.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/source\/assets\/styles\/plugins\/owl.carousel.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/source\/assets\/styles\/plugins\/owl.carousel.min.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -867,7 +711,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/source\/assets\/styles\/style.css",
+		"oAP": "\/build\/assets\/styles\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -921,7 +765,8 @@
 	"creationDate": 524520130,
 	"displayValue": "Redrum",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-angryBaby"
+	"iconImageName": "meme-angryBaby",
+	"lastBuiltDate": 524522356
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1176,7 +1021,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {

@@ -31,8 +31,12 @@ $(function() {
     $(".message").addClass("message_hidden");
   });
   
-  $(".footer__button").click(function() {$(".write").addClass("write_open")});
-  $(".write__close").click(function() {$(".write").removeClass("write_open");});
+  $(".footer__button").click(function() {
+    $(".write").addClass("write_open");
+  });
+  $(".write__close").click(function() {
+    $(".write").removeClass("write_open");
+  });
   
   $(".background").addClass("background_load");
   

@@ -1,0 +1,42 @@
+.preloader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  z-index: 9999; }
+  .preloader__version {
+    position: absolute;
+    display: flex;
+    text-transform: uppercase;
+    color: #d80000;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    top: 30px;
+    font-weight: 800;
+    font-size: 12px; }
+    .preloader__version:before {
+      content: '';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 21px;
+      width: 21px;
+      left: 0;
+      border-radius: 100px;
+      margin-right: 10px;
+      position: relative;
+      background: #d80000;
+      animation: loading 1s infinite ease-in-out;
+      box-shadow: rgba(216, 0, 0, 0.8); }
+  .preloader__logotype {
+    height: 100px;
+    width: 310px;
+    background-image: url("../../assets/images/logotype/logotype.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
