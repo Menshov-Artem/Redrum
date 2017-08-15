@@ -7,129 +7,360 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
-<body class="disable-scroll">
-  <div class="preloader">
-    <div class="preloader__version">beta 1.5.5</div>
-    <div class="preloader__logotype"></div>
-  </div>
-  <div class="navigation">
-    <div class="navigation__container container">
-      <ul class="navigation__list"><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a><a class="navigation__link" href="#">
-          <li class="navigation__item">Ссылка</li></a></ul>
-    </div>
-  </div>
-  <header>
+<body>
+  <header class="section section__header header">
     <div class="header__container container">
-      <div class="header__content">
-        <div class="header__left-side">
-          <div class="header__brand"></div>
-          <ul class="header__list"><a class="header__link" href="">
-              <li class="header__item">Новости</li></a><a class="header__link" href="">
-              <li class="header__item">Блоги</li></a><a class="header__link" href="">
-              <li class="header__item">Магазин</li></a><a class="header__link" href="">
-              <li class="header__item">Рубрики</li></a><a class="header__link" href="">
-              <li class="header__item">О нас</li></a></ul>
-        </div>
-        <div class="header__right-side">
-          <div class="header__burger ion-navicon"></div>
-        </div>
+      <div class="header__content"><a class="header__logo" href="/build">Redrum</a>
+        <div class="header__wrapper">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="">Новости</a></li>
+            <li class="header__item"><a class="header__link" href="">Блоги</a></li>
+            <li class="header__item"><a class="header__link" href="catalog.html">Магазин</a></li>
+            <li class="header__item"><a class="header__link" href="">Рубрики</a></li>
+            <li class="header__item"><a class="header__link" href="">О нас</a></li>
+          </ul>
+        </div><a class="header__basket" href="./basket.html">12</a>
       </div>
     </div>
   </header>
-  <main>
-    <div class="slider-top">
-      <div class="owl-carousel" id="owlSlider">
-        <div class="slider-top__content">
-          <div class="slider-top__info">
-            <div class="slider-top__title">«Шаг за страх» — методичка о работе со своими и чужими страхами</div>
-            <div class="slider-top__text">Квинтэссенция теории и практики работы со страхами. Специально для наших читателей мы собрали в компактной методичке материалы о таком мощном явлении, как человеческий страх. Скачивайте, изучайте, практикуйте, задавайте нам вопросы, делитесь методичкой с друзьями.</div>
-            <button class="slider-top__read-more">Читать</button>
-          </div><img class="slider-top__image slider__item" src="assets/images/slider/s-02.jpg">
+  <main class="section">
+    <div class="background">
+      <div class="background__img">
+        <div class="background__img-source" data-image="http://www.vizyonanadolu.com/depo/dosyalar/61.jpg"></div>
+      </div>
+    </div>
+    <section class="section section__banner banner">
+      <div class="container">
+        <div class="banner__section-title title">Статьи</div>
+      </div>
+      <div class="banner__container container">
+        <div class="banner__img"><img class="banner__img-source" src="https://s00.yaplakal.com/pics/pics_original/5/6/6/2588665.jpg">
+          <div class="banner__post-content">
+            <div class="banner__title">Самый первый в пост в секскции со всеми статьями!</div>
+            <div class="banner__text">Здесь две секции. Внизу все посты из всех категорий. Это - самая первая и самая свежая запись из категорий. Справа - Рекламный баннер.</div>
+          </div>
         </div>
+        <div class="banner__img banner__img_small banner__img_margin-left"><img class="banner__img-source" src="http://iknigi.net/books_files/covers/thumbs_300/13-manyakov-97277.jpg"></div>
       </div>
-    </div>
-    <div class="popular-posts__container">
-      <div class="popular-posts__owl-carousel owl-carousel" id="owlPopularPosts">
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">Как прошёл шестнадцатый онлайн-курс «Базовый HTML и CSS»</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-01.jpg"></a></div>
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">РПЦ отказалась комментировать слова Поклонской о мироточивом бюсте Николая II</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-02.jpg"></a></div>
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">Один блестящий и два хороших сериала на выходные «Патриот» о спецслужбах, «Диета из Санта-Клариты» о зомби и спин-офф «Черного списка»</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-03.jpg"></a></div>
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">В Совете Федерации предложили запретить рекламу с картой РФ без Крыма</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-04.jpg"></a></div>
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">Сирийская армия вошла в Пальмиру. Фотографии</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-05.jpg"></a></div>
-        <div class="popular-posts__owl-carousel popular-posts__item"><a class="popular-posts__owl-carousel popular-posts__link" href="#">
-            <div class="popular-posts__owl-carousel popular-posts__item-content">
-              <div class="popular-posts__owl-carousel popular-posts__item-content_title">Длинный заголовок поста</div>
-            </div><img class="popular-posts__image" src="assets/images/popular-posts/s-06.jpg"></a></div>
-      </div>
-      <div class="popular-postsr__owl-carousel popular-posts__buttons">
-        <button class="popular-posts__owl-carousel popular-posts__button-prev ion-ios-arrow-left arrow-prev"></button>
-        <button class="popular-posts__owl-carousel popular-posts__button-next ion-ios-arrow-right arrow-next"></button>
-      </div>
-    </div>
-    <div class="all-posts">
+    </section>
+    <section class="section section__all-posts all-posts">
       <div class="all-posts__container container">
-        <div class="all-posts__row">
-          <div class="all-posts__item"><img class="all-posts__image" src="assets/images/popular-posts/s-01.jpg">
+        <div class="all-posts__list">
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59459/mini/slipknot-corey-taylor-750-300.jpg"></div>
             <div class="all-posts__content">
-              <div class="all-posts__title">Что мы слушали в феврале. Плейлист «Медузы»</div>
+              <div class="all-posts__category all-posts__category_music">Музыка</div><a class="all-posts__title" href="post.html">Лучшие и худшие альбомы Slipknot по мнению Кори Тейлора</a>
             </div>
           </div>
-          <div class="all-posts__item"><img class="all-posts__image" src="assets/images/popular-posts/s-02.jpg">
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60069/mini/1-750-300.jpg"></div>
             <div class="all-posts__content">
-              <div class="all-posts__title">Что мы слушали в феврале. Плейлист «Медузы»</div>
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">И еще немного Пеннивайза!</a>
             </div>
           </div>
-          <div class="all-posts__item"><img class="all-posts__image" src="assets/images/popular-posts/s-03.jpg">
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59953/mini/4-750-300.jpg"></div>
             <div class="all-posts__content">
-              <div class="all-posts__title">Что мы слушали в феврале. Плейлист «Медузы»</div>
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">Как создавалась обложка романа "Фаталист"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60074/mini/annabelle2-0-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">Жуткие спойлеры - 8 страшных сцен из фильма "Проклятие Аннабель: Зарождение зла" (ВИДЕО)</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/57160/mini/system-shock-3-art-01-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_game">Игры</div><a class="all-posts__title" href="post.html">Появились ранние концепт-арты "System Shock 3"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60121/mini/2-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_film">Кино</div><a class="all-posts__title" href="post.html">Бывший шоураннер "Ходячих мертвецов" займется сериалом "Темная башня"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60069/mini/1-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">И еще немного Пеннивайза!</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59459/mini/slipknot-corey-taylor-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_music">Музыка</div><a class="all-posts__title" href="post.html">Лучшие и худшие альбомы Slipknot по мнению Кори Тейлора</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59459/mini/slipknot-corey-taylor-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_music">Музыка</div><a class="all-posts__title" href="post.html">Лучшие и худшие альбомы Slipknot по мнению Кори Тейлора</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60069/mini/1-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">И еще немного Пеннивайза!</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59953/mini/4-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">Как создавалась обложка романа "Фаталист"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60074/mini/annabelle2-0-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">Жуткие спойлеры - 8 страшных сцен из фильма "Проклятие Аннабель: Зарождение зла" (ВИДЕО)</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/57160/mini/system-shock-3-art-01-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_game">Игры</div><a class="all-posts__title" href="post.html">Появились ранние концепт-арты "System Shock 3"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60121/mini/2-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_film">Кино</div><a class="all-posts__title" href="post.html">Бывший шоураннер "Ходячих мертвецов" займется сериалом "Темная башня"</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/60069/mini/1-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_news">Новости</div><a class="all-posts__title" href="post.html">И еще немного Пеннивайза!</a>
+            </div>
+          </div>
+          <div class="all-posts__item">
+            <div class="all-posts__info">
+              <div class="all-posts__date">3 августа 2017</div>
+            </div>
+            <div class="all-posts__image"><img class="all-posts__image-source" src="http://horrorzone.ru/uploads/_pages2/59459/mini/slipknot-corey-taylor-750-300.jpg"></div>
+            <div class="all-posts__content">
+              <div class="all-posts__category all-posts__category_music">Музыка</div><a class="all-posts__title" href="post.html">Лучшие и худшие альбомы Slipknot по мнению Кори Тейлора</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="team">
+    </section>
+    <section class="section section__goods goods">
+      <div class="container">
+        <div class="goods__header">
+          <div class="goods__section-title title">Наши журналы</div>
+          <div class="goods__wrapper">
+            <div class="goods__button-prev"></div>
+            <div class="goods__button-next"></div>
+          </div>
+        </div>
+      </div>
+      <div class="goods__container container">
+        <div class="goods__list owl-carousel">
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+          <div class="goods__item"><a class="goods__img" href="product.html"><img class="goods__img-source" src="./assets/images/goods/redrum.jpeg"></a>
+            <div class="goods__content"><a class="goods__link" href="product.html">
+                <div class="goods__title">Redrum #5</div></a>
+              <div class="goods__price">250 руб.</div>
+            </div>
+            <button class="goods__button button button_theme_red button_size_s">Купить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__team team">
       <div class="team__container container">
+        <div class="team__title title">Наша команда</div>
         <div class="team__list">
-          <div class="team__item"></div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c638930/v638930089/21ff0/Q_iHlkKJqz8.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Мария Артемьева</div>
+              <div class="team__roll">Главный редактор</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c626926/v626926955/22844/8_Nn8vV7g9g.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Ярослав Землянухин</div>
+              <div class="team__roll">Backend разработчик</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c837629/v837629756/626b/hbt9hlTWn8w.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Артем Меньшов</div>
+              <div class="team__roll">Frontend разработчик</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c633324/v633324021/2594/aoCNuFBKSjk.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Александр Авгур</div>
+              <div class="team__roll">Главный редактор RedRec</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c638730/v638730688/4c6f0/dbSIZ3MVHJA.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Алексей Шолохов</div>
+              <div class="team__roll">Зам.главного редактора</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c622830/v622830438/44df3/6heJ8DCqUqY.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Валерий Тищенко</div>
+              <div class="team__roll">Редактор</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c11510/u14517520/-6/z_99b4b95c.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Максим Филатов </div>
+              <div class="team__roll">Редактор сообщества VK</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team__img"><img class="team__img-source" src="https://pp.userapi.com/c633619/v633619280/2327e/54ACh_BAEZw.jpg"></div>
+            <div class="team__content">
+              <div class="team__name">Денис Назаров</div>
+              <div class="team__roll">Дизайнер</div>
+              <div class="team__social"><a class="team__social-item team__social-vk" href="#"></a><a class="team__social-item team__social-gplus" href="#"></a><a class="team__social-item team__social-fb" href="#"></a></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
-  <footer></footer>
+  <div class="write">
+    <div class="write__container container">
+      <div class="write__content">
+        <div class="write__header">
+          <div class="write__title title">Заполните поля и отправьте сообщение</div>
+          <div class="write__close"></div>
+        </div>
+        <input class="write__input input input__type-text input_theme_red" type="text" placeholder="Имя">
+        <input class="write__input input input__type-text input_theme_red" type="text" placeholder="Почта *">
+        <textarea class="write__input textarea textarea_theme_red" type="text" placeholder="Сообщение *"></textarea>
+        <button class="button button_theme_red button_size_m">Отправить</button>
+      </div>
+    </div>
+  </div>
+  <footer class="section section__footer footer">
+    <div class="footer__container container">
+      <div class="footer__wrapper">
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="#">Вконтакте</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Facebook</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Google+</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Twitter</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="#">HorrorZone</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Horror.ru</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">DayZero.com</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">artemieva.ru</a></li>
+        </ul>
+        <button class="footer__button button button_theme_red button_size_s">Написать нам</button>
+      </div>
+      <p class="footer__copyright">Redrum 2017</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
+  <script src="https://use.fontawesome.com/7383413395.js"></script>
+  <script src="./assets/js/plugins/jquery.mousewheel.js"></script>
+  <script src="./assets/js/plugins/parallax.min.js"></script>
+  <script src="./assets/js/scripts.js"></script>
 </body>
-<script src="./assets/js/plugins/jquery-3.1.1.min.js"></script>
-<script src="./assets/js/plugins/owl.carousel.min.js"></script>
-<script src="./assets/js/scripts.js"></script>

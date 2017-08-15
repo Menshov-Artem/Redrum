@@ -1,0 +1,67 @@
+.write
+  width: 100%
+  height: 100%
+  position: fixed
+  display: block
+  top: 0
+  left: 0
+  background: rgba(black, 0.5)
+  z-index: 99999
+  visibility: hidden
+  opacity: 0
+  transition: all 200ms ease
+  
+  &_open
+    opacity: 1
+    visibility: visible
+    
+    .write__content
+      transform: translateY(0)
+  
+  &__header
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    margin-bottom: 30px
+    
+  &__title
+    padding: 0 !important
+    margin: 0 !important
+    line-height: 1.5
+    max-width: 300px
+  
+  &__container
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+  
+  &__content
+    display: flex
+    flex-direction: column
+    padding: 60px
+    background: rgba($bisque, 1)
+    border-radius: 4px
+    box-sizing: border-box
+    transition: all 400ms ease
+    transform: translateY(30px)
+    box-shadow: 0 20px 40px 0 rgba($red, 0.1)
+    
+  &__input
+    margin-bottom: 15px
+    
+    &:last-child
+      margin-bottom: 0
+      
+  &__close
+    cursor: pointer
+    display: block
+    
+    &::before
+      position: relative
+      display: block
+      content: "\f00d"
+      font: normal 20px FontAwesome 
+      

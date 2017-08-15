@@ -1,103 +1,92 @@
-header
-	height: 80px
-
 .header
-	&__content
-		display: inline-flex
-		align-items: center
-		justify-content: space-between
-		width: 100%
+  position: relative
+  z-index: 5
+  padding: 30px 0
+  border-bottom: 1px solid rgba($main, 0.1)
+  overflow-y: hidden
+  overflow-x: visible
+  white-space: nowrap
 
-	&__left-side
-		display: inline-flex
-		align-items: center
-
-	&__brand
-		height: 80px
-		width: 120px
-		display: flex
-		position: relative
-		align-items: flex-start
-		justify-content: flex-start
-		box-sizing: border-box
-		background:
-			image: url('../../assets/images/logotype/logotype.svg')
-			size: 120px auto
-			position: center
-			repeat: no-repeat
-
-	&__list
-		list-style: none
-		margin-left: 30px
-		padding: 0
-		display: inline-flex
-
-	&__link
-		color: #444
-		psition: relative
-		font-size: 12px
-		text-transform: uppercase
-		font-weight: 700
-		display: block
-		margin:
-			right: 30px
-			left: 0
-			top: 0
-			bottom: 0
-		text-decoration: none
-
-		&:hover .header__item
-			&:after
-				content: ''
-				display: block
-				width: 100%
-				height: 2px
-				margin-top: 10px
-				background: #444
-				position: absolute
-
-		&_active
-			color: #d80000
-			psition: relative
-			font-size: 14px
-			font-weight: 700
-			text-transform: uppercase
-			display: block
-			margin-right: 30px
-			text-decoration: none
-
-			&:hover .header__item
-				color: #d80000
-
-				&:after
-					content: ''
-					display: block
-					width: 0
-					height: 3px
-					margin: 10px auto
-					background: #d80000
-					position: absolute
-
-	&__item
-		position: relative
-
-		&:after
-			content: ''
-			display: block
-			width: 0
-			height: 3px
-			margin-top: 10px
-			background: transparent
-			position: absolute
-			transition: all 200ms ease-in-out
-
-		&:last-child
-			margin-right: 0
-
-	&__burger
-		position: relative
-		z-index: 11
-		cursor: pointer
-
-		&:before
-			font-size: 28px
+  &__container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    
+  &__content
+    display: flex
+    width: 100%
+    align-items: center
+    justify-content: space-between
+    
+  &__logo
+    font-size: 35px
+    font-weight: 700
+    letter-spacing: -3px
+    text-indent: 0
+    font-family: 'PT Serif', serif
+    text-transform: uppercase
+    text-decoration: none
+    text-shadow: 0 0 40px rgba($red, 0)
+    transition: text-shadow 200ms ease
+    
+    &:hover
+      text-shadow: 0 0 40px rgba($red, 0.9)
+    
+  &__list
+    display: flex
+    align-items: center
+    
+  &__link
+    color: rgba($main, 0.5)
+    font-size: 14px
+    font-weight: 400
+    padding-bottom: 3px
+    text-decoration: none
+    transition: color 200ms ease
+    
+    &:hover
+      color: $main
+    
+  &__item
+    margin-left: 30px
+  
+  &__wrapper
+    display: flex
+    align-items: center
+    
+  &__basket
+    color: $main
+    margin-left: 60px
+    display: inline-flex
+    align-items: center
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase	
+    text-decoration: none
+    padding: 8px 20px
+    flex-shrink: 0
+    border: 1px solid rgba($main, 0.1)
+    border-radius: 3px
+    user-select: none
+    outline: none
+    transition: background 200ms ease
+    
+    &:hover
+      color: $main
+      background: $red
+      box-shadow: 0 10px 40px 0 rgba($red, 0.15)
+      
+    &::after
+      content: "\f07a"
+      display: block
+      font: normal 14px FontAwesome
+      text-decoration: none
+      margin-left: 10px
+      cursor: pointer
+      
+  &__menu
+    &:before
+      content: "\f20e"
+      font-family: "Ionicons"
+      font-size: 30px

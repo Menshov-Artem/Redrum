@@ -1,0 +1,98 @@
+.message
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  right: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  transform: translateY(10px)
+  background: rgba(black, 0.7)
+  opacity: 1
+  visibility: visible
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out, visibility 200ms ease-in-out
+  z-index: 10
+  
+  &_visible
+    opacity: 1
+    visibility: visible
+    transform: translateY(0)
+    transition-delay: 200ms
+  
+  &_hidden
+    opacity: 0
+    visibility: hidden
+    transform: translateY(10px)
+  
+  &__container
+    max-width: 700px
+    padding: 30px
+    margin: 10px 30px
+    background-color: rgba($red, 0.8)
+    background-image: url("https://media.tenor.com/images/a461bc5a8cf80db167c9551c7c934e12/tenor.gif")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    background-blend-mode: overlay
+    box-shadow: 0 0 100px 0 rgba($red, 1)
+    border: 1px solid $red
+    border-radius: 4px
+    box-sizing: border-box
+    opacity: 0
+    transform: scale(1.5)
+    transition: opacity 400ms ease-in-out, transform 400ms ease-in-out, box-shadow 1s ease-in-out, background-color 1s ease-in-out
+    
+    &_visible
+      opacity: 1
+      background-color: rgba(black, 0.8)
+      box-shadow: 0 0 30px -5px rgba($red, 0.5)
+      transform: scale(1)
+
+  &__content
+    display: flex
+    flex-direction: row
+    align-items: flex-start
+    box-sizing: border-box
+    
+  &__wrapper
+    margin-left: 30px
+    
+  &__img
+    width: 80px
+    height: 80px
+    display: flex
+    flex-shrink: 0
+    align-items: center
+    justify-content: center
+    padding: 10px
+    border: 1px solid rgba($red, 0.8)
+    background: rgba($red, 0.8)
+    border-radius: 100px
+    box-shadow: 0 0 30px -5px rgba($red, 0.5)
+    box-sizing: border-box
+    animation: pulse 3s infinite alternate
+        
+    &-source
+      width: 100%
+      height: 100%
+      object-fit: contain
+  
+  &__title
+    font-size: 18px
+    font-weight: 400
+    line-height: 1.5
+    margin-bottom: 10px
+  
+  &__text
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.5
+    
+  &__button
+    margin-top: 30px
+    align-self: flex-start
+    
+  &__audio
+    display: none

@@ -1,0 +1,59 @@
+.search
+  width: 100%
+  position: relative
+  z-index: 5
+  margin-top: 30px
+  
+  &__input
+    width: 100%
+    padding: 15px
+    position: relative
+    border: 1px solid rgba($main, 0.1)
+    border-radius: 4px
+    background-color: transparent
+    font-size: 14px
+    text-transform: uppercase
+    color: rgba($main, 0.5)
+    font-weight: 400
+    overflow: hidden
+    outline: none
+    box-shadow: 0 0 30px -5px rgba($red, 0)
+    transition: max-width 200ms ease, bordser 200ms ease, background 200ms ease, box-shadow 200ms ease
+    appearance: none
+
+    &:focus
+      max-width: 100%
+      background-position: 15px 13px
+    &::-webkit-input-placeholder
+      text-indent: 30
+      color: rgba($main, 0.5)
+      transition: text-indent 200ms ease
+    &:-moz-placeholder
+      text-indent: 30
+      color: rgba($main, 0.5)
+      transition: text-indent 200ms ease
+    &::-moz-placeholder
+      text-indent: 30
+      color: rgba($main, 0.5)
+      transition: text-indent 200ms ease
+    &:-ms-input-placeholder
+      text-indent: 30
+      color: rgba($main, 0.5)
+      transition: text-indent 200ms ease
+    &:focus
+      border: 1px solid $red
+      color: $main
+      background: rgba($red, 0.8)
+      box-shadow: 0 0 30px -5px rgba($red, 0.5)
+      &::-webkit-input-placeholder
+        color: white
+        text-indent: 10px
+      &::-moz-placeholder
+        color: white
+        text-indent: 10px
+      &:-moz-placeholder
+        color: white
+        text-indent: 10px
+      &:-ms-input-placeholder
+        color: white
+        text-indent: 10px    

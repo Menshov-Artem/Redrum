@@ -1,17 +1,15 @@
-.header__container.container
-	.header__content
-		.header__left-side
-			.header__brand
-			ul.header__list
-				a.header__link(href="")
-					li.header__item Новости
-				a.header__link(href="")
-					li.header__item Блоги
-				a.header__link(href="")
-					li.header__item Магазин
-				a.header__link(href="")
-					li.header__item Рубрики
-				a.header__link(href="")
-					li.header__item О нас
-		.header__right-side
-			.header__burger.ion-navicon
+header.section.section__header.header
+  .header__container.container
+    .header__content
+      a.header__logo(href="/build") Redrum
+      .header__wrapper
+        ul.header__list
+          li.header__item: a.header__link(href="") Новости
+          li.header__item: a.header__link(href="") Блоги
+          li.header__item: a.header__link(href="catalog.html") Магазин
+          li.header__item: a.header__link(href="") Рубрики
+          li.header__item: a.header__link(href="") О нас
+      a.header__basket(href="./basket.html") 12
+    //- .header__search.search
+    //-   input.search__input(id="search" name="search" type="search" placeholder="Что найти?")
+    //-   label.search__icon(for="search")

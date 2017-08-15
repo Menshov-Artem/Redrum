@@ -1,18 +1,17 @@
 include assets/blocks/head/head
-
-body.disable-scroll
-	include assets/blocks/preloader/preloader
-	include assets/blocks/navigation/navigation
-
-	header
-		include assets/blocks/header/header
-		
-	main
-		include assets/blocks/slider/slider
-		include assets/blocks/popular-posts/popular-posts
-		include assets/blocks/all-posts/all-posts
-		include assets/blocks/team/team
-
-	footer
-
-include assets/blocks/scripts/scripts
+body
+  include assets/blocks/header/header
+  
+  main.section
+    include assets/blocks/background/background
+    //- include assets/blocks/message/message
+    include assets/blocks/slider/slider
+    //- include assets/blocks/audioplayer/audioplayer
+    include assets/blocks/adbanner/adbanner
+    include assets/blocks/all-posts/all-posts
+    include assets/blocks/goods/goods
+    include assets/blocks/team/team
+  
+  include assets/blocks/popup/write
+  include assets/blocks/footer/footer
+  include assets/blocks/scripts/scripts

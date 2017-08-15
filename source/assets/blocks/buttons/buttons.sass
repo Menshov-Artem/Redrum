@@ -1,0 +1,38 @@
+.button
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  outline: none
+  cursor: pointer
+  border: none
+  border-radius: 0
+
+  &_theme_red
+    color: $main
+    position: relative
+    text-transform: uppercase
+    border-radius: 3px
+    border: 1px solid rgba($main, 0.1)
+    box-shadow: 0 0 30px -5px rgba($red, 0)
+    background: transparent
+    transition: box-shadow 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out
+
+    &:hover
+      background: rgba($red, 0.8)
+      border: 1px solid $red
+      box-shadow: 0 0 30px -5px rgba($red, 0.5)
+
+  &_size_s
+    font-size: 10px
+    font-weight: 400
+    padding: 10px 20px
+    
+  &_size_m
+    font-size: 10px
+    font-weight: 400
+    padding: 10px 20px
+    
+  &_size_l
+    font-size: 14px
+    font-weight: 400
+    padding: 15px 30px

@@ -1,0 +1,136 @@
+.team
+  position: relative
+  z-index: 5
+  border-top: 1px solid rgba($main, 0.1)
+  
+  &__img
+    width: 100px
+    height: 100px
+    flex-shrink: 0
+    overflow: hidden
+    padding: 5px
+    border: 1px solid rgba($main, 0.1)
+    border-radius: 100px
+    box-shadow: 0 10px 30px -8px rgba(black, 0.1)
+    box-sizing: border-box
+    z-index: 1
+
+    &-source
+      width: 100%
+      height: 100%
+      border-radius: 100px
+      object-fit: cover
+      backface-visibility: hidden
+  
+  &__item
+    width: calc((100% - 30px * 2) / 3)
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    margin-right: 30px
+    margin-bottom: 30px
+    padding: 10px 0 10px 10px
+    border-radius: 3px
+    box-sizing: border-box
+    cursor: pointer
+    border: 1px solid rgba($main, 0.1)
+    
+    &:nth-child(3n)
+      margin-right: 0
+  
+  &__list
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+        
+  &__content
+    width: 100%
+    // visibility: hidden
+    margin-left: 20px
+    overflow: hidden
+    border-radius: 3px
+        
+  &__name
+    color: $main
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.5
+    margin-bottom: 5px
+    
+  &__roll
+    color: $main
+    font-size: 11px
+    font-weight: 400
+    line-height: 1.5
+    
+  &__social
+    width: 100%
+    display: flex
+    margin-top: 10px
+    
+    &-item
+      margin-right: 10px
+      
+      &:last-child
+        margin-right: 0
+    
+    &-vk, &-gplus, &-fb
+      width: 25px
+      height: 25px
+      color: rgba($main, 0.1)
+      text-decoration: none
+      border: 1px solid rgba($main, 0.1)
+      border-radius: 4px
+      box-sizing: border-box
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: border 200ms ease, color 200ms ease
+      
+      &::before
+        display: block
+        font: normal 11px FontAwesome
+      
+      &:hover
+        color: $main
+        border: 1px solid $main
+      
+    &-vk
+      &::before
+        content: "\f189"
+  
+    &-gplus
+      &::before
+        content: "\f0d5"
+        
+    &-fb
+      &::before
+        content: "\f09a"
+        
+@media screen and (max-width: 1028px)
+  .team
+    &__container
+      padding: 0 10px
+      
+    &__item
+      width: calc((100% - 30px * 1) / 2)
+      margin-right: 30px
+      
+      &:nth-child(2n)
+        margin-right: 0
+        
+      &:nth-child(3)
+        margin-right: 30px
+
+@media screen and (max-width: 714px)
+  .team
+    &__container
+      padding: 0 10px
+      
+    &__item
+      width: 100%
+      margin-right: 0
+      
+      &:nth-child(3)
+        margin-right: 0
