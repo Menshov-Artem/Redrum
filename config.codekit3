@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/_config.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/_config.yml",
-		"oF": 0
-		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,
