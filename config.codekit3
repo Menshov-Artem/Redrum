@@ -21,6 +21,12 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
+	"\/build.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/build.zip",
+		"oF": 0
+		},
 	"\/prepros-6.config": {
 		"ft": 8192,
 		"oA": 2,
@@ -765,7 +771,7 @@
 	"creationDate": 524520130,
 	"displayValue": "Redrum",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-angryBaby",
+	"iconImageName": "brackets_purple",
 	"lastBuiltDate": 524523117
 	},
 "projectSettings": {
